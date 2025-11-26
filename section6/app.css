@@ -1,0 +1,22 @@
+h2 {
+    text-align: center;
+    color: indigo;
+    background-color: rgb(23, 213, 54);
+    font-weight: 400;
+    text-decoration: blue underline wavy;
+    letter-spacing: 15px;
+    font-family: fantasy, sans-serif;
+}
+
+button {
+    color: magenta;
+    background-color: aquamarine;
+}
+
+p {
+    color: #5fcffc;
+    background: orange;
+    text-align: right;
+    font-weight: 700;
+    font-size: large;
+}
