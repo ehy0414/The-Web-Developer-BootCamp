@@ -1,0 +1,33 @@
+h1 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: inline;
+}
+
+span {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    color: black;
+    display: block;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 20px;
+}
+
+h2 {
+    display: none;
+}
+
+
+/* 인라인 요소는 패딩은 적용 나머지 내용은 영향이 없음
+width는 적용이 안됨 */
+
+/* 블록 요소는 모든 내용이 적용이 됨 */
+
+/* 인라인 블록 요소는 블록요소처럼 적용이 되지만 인라인 요소처럼 한줄로 정렬 */
