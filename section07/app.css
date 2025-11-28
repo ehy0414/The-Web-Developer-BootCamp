@@ -1,0 +1,54 @@
+h2+p {
+    font-size: 30px;
+}
+
+header a {
+    color: red;
+}
+
+header>a {
+    color: gray;
+}
+
+input[type="password"] {
+    color: blue;
+}
+
+/* section[class="post"] {
+    background-color: purple;
+} */
+
+a[href*="google"] {
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: aqua;
+    color: aliceblue;
+    box-shadow: 0 0 0 20 black;
+}
+
+.post button:hover {
+    background-color: red;
+    color: black;
+}
+
+button:active {
+    background-color: aquamarine;
+}
+
+.post:nth-of-type(2n) {
+    background-color: chocolate;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: aqua;
+}
+
+p::selection {
+    background-color: aqua;
+}
