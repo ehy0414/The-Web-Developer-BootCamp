@@ -4,6 +4,10 @@ function singSong() {
     console.log("MI");
 }
 
+const rant = (a) => {
+    a
+};
+
 function greet(firstName, lastName) {
     console.log(`Hey there, ${firstName} ${lastName[0]}.`)
 }
